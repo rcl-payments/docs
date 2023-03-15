@@ -1,0 +1,7 @@
+﻿title: "RCL Payments"
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+search_enabled: true
+aux_links:
+  "RCL Payments on GitHub":
+    - "https://github.com/rcl-payments/docs"
