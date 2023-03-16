@@ -13,7 +13,7 @@ RCL Payments is a Software as a Services (SaaS) application available for subscr
 It allows organizations or users to accept online payments via a credit card on their website or an online application.
 
 ## How it works 
-Payments are processed by [Stripe](https://stripe.com/) on the subscriber's web site or online application. The payments are forwarded to a proxy or intermediate US bank account controlled by RCL. The subscriber will then transfer the funds from this bank account to the subscriber's local bank account using [Wise](https://wise.com/). 
+Payments are processed by [Stripe](https://stripe.com/) on the subscriber's web site or online application. The payments are forwarded to a proxy or intermediate US bank account. The subscriber will then transfer the funds from this bank account to their local bank account using [Wise](https://wise.com/). 
 
 ## Who is this application for
 
@@ -31,5 +31,9 @@ An intermediate or proxy US bank account held by RCL Global LLC is used to tempo
 - Use the Payment API to add payments to your website or online application
 - Check your online transactions
 - Generate Payouts and transfer funds to your local bank account
+
+# Testing
+
+A [Sandbox Application]() is provided for subscriber's to design and test their payment integrations before going live. This sandbox application comprises both a *Web User Interface* to configure the payment system and an *API* to simulate online payments. It is highly recommended that subscribers use this sandbox to test their payment integrations before accepting live payments online.
 
 
