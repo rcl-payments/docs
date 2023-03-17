@@ -5,7 +5,7 @@ has_children: false
 nav_order: 2
 ---
 
-# Introduction
+# Representative
 **V7**
 
 The *Representative* has overall responsibility for the configuration and management of the payment system. The representative must be approved before he/she can use the application. 
