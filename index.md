@@ -8,7 +8,7 @@ nav_order: 1
 # Introduction
 **V7**
 
-RCL Payments is a Software as a Services (SaaS) application available for subscription in the [Azure Marketplace]().
+RCL Payments is a Software as a Services (SaaS) application available for subscription in the [Azure Marketplace](https://appsource.microsoft.com/en-us/product/web-apps/rayconsulting.008).
 
 It allows organizations or users to accept online payments via a credit card on their website or an online application.
 
@@ -27,9 +27,9 @@ An intermediate or proxy US bank account held by RCL Global LLC is used to tempo
 - [Subscribe](https://common.docs.rclapp.com/subscription/subscription.html) for the SaaS application in the Azure Marketplace (*mandatory*)
 - Get the [Representative](./representative/representative.md) approved (*mandatory*)
 - Get your Organization approved, if required (*conditional*)
-- Add a Credit Card (*mandatory*)
+- Add a [Credit Card](./creditcard/creditcard.md) (*mandatory*)
 - Configure your payment system (*optional*)
-- Use the Payment API to add payments to your website or online application (*mandatory*)
+- Use the [Payment API](./api/api.md) to add payments to your website or online application (*mandatory*)
 - Check your online transactions (*mandatory*)
 - Generate Payouts and transfer funds to your local bank account (*mandatory*)
 
