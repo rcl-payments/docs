@@ -10,7 +10,7 @@ nav_order: 3
 
 A subscriber must add a *Credit Card* to use the application.
 
-If a subscriber has customer *refunds* or *disputes* that exceeds their transaction balance, the this additional amount will be automatically charged to the subscriber's credit card.
+If a subscriber has customer *refunds* or *disputes* that exceeds their transaction balance, then the additional amount will be automatically charged to the subscriber's credit card.
 
 ## How to add a Credit Card
 
@@ -32,4 +32,4 @@ If a subscriber has customer *refunds* or *disputes* that exceeds their transact
 
 - Click the **Submit** button when you are done
 
-**Your credit card information is soley managed by [Stripe](https://stripe.com/), your credit card information is not stored on this application in anyway or form. The page to enter the credit card information is hosted by stripe**
+**The credit card information is solely managed by [Stripe](https://stripe.com/), the credit card information is not stored on this application in anyway or form. The page to enter the credit card information is hosted by Stripe**
