@@ -25,7 +25,7 @@ An intermediate or proxy US bank account held by RCL Global LLC is used to tempo
 # Getting Started
 
 - Subscribe for the SaaS application in the Azure Marketplace
-- Get your Organization Representative approved
+- Get the [Representative](./representative/representative.md) approved
 - Get your Organization approved, if required
 - Configure your payments
 - Use the Payment API to add payments to your website or online application
