@@ -36,7 +36,7 @@ To make a request to the Payment API, include the API Key as a `Bearer` **Author
 
 ### Example
 
-```
+```bash
 POST /paymentrequest/subscriptionid/s45vdyegf233-g5674-34rwe-34rd-657yger456/create
 Host: https://rclapi.azure-api.net/production/v7/payment
 Authorization: Bearer sergeve456-e5467-45er-y456-5476fgdrst56
@@ -46,13 +46,13 @@ Authorization: Bearer sergeve456-e5467-45er-y456-5476fgdrst56
 
 The base URI for the **live** version of the Payment API is :
 
-```
+```bash
 https://rclapi.azure-api.net/production/v7/payment
 ```
 
 The base URI for the **sandbox** version of the Payment API is :
 
-```
+```bash
 https://rclapi.azure-api.net/development/v7/payment
 ```
 
@@ -60,7 +60,7 @@ https://rclapi.azure-api.net/development/v7/payment
 
 The endpoint for the Payment API is :
 
-```
+```bash
 /paymentrequest/subscriptionid/{subscrid}/create
 ```
 
@@ -84,7 +84,7 @@ The request body should include a JSON of a **PaymentRequest** object.
 
 ### Example PaymentRequest object
 
-```
+```json
 {
     "currency" : "usd",
     "amount" : 5.00,
@@ -100,7 +100,7 @@ Notes :
 
 ### Example Request
 
-```
+```bash
 POST /production/v7/payment/paymentrequest/subscriptionid/s45vdyegf233-g5674-34rwe-34rd-657yger456/create HTTP/1.1
 Host: rclapi.azure-api.net
 Authorization: Bearer sergeve456-e5467-45er-y456-5476fgdrst56
@@ -131,6 +131,7 @@ An error occurred while processing the request. Check the body of the response f
 
 ## Example Response Body
 
+```json
 {
     "Id": 1,
     "dateCreated": "2023-03-17T22:23:01.2042245+00:00",
@@ -142,3 +143,4 @@ An error occurred while processing the request. Check the body of the response f
     "code": "cdfg456-gtf34-gf45-tger-hdtte5693745g",
     "webappId": 17
 }
+```
