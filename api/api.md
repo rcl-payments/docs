@@ -144,3 +144,15 @@ An error occurred while processing the request. Check the body of the response f
     "webappId": 17
 }
 ```
+
+# Using the Payment Link
+
+The Payment API will return a html payment link in the response within the **PaymentRequest** object.
+
+The subscriber can then place this link on their website or online application to process a payment with Stripe when the link is clicked by a buyer.
+
+**The payment link will expire in 24 hrs**.
+
+The image below illustrates the Stripe payment page when the link is clicked.
+
+![Stripe Payment Page](/images/api-stripe-payment-page.png)
