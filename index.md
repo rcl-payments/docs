@@ -24,16 +24,19 @@ An intermediate or proxy US bank account held by RCL Global LLC is used to tempo
 
 # Getting Started
 
-- [Subscribe](https://common.docs.rclapp.com/subscription/subscription.html) for the SaaS application in the Azure Marketplace
-- Get the [Representative](./representative/representative.md) approved
-- Get your Organization approved, if required
-- Configure your payments
-- Use the Payment API to add payments to your website or online application
-- Check your online transactions
-- Generate Payouts and transfer funds to your local bank account
+- [Subscribe](https://common.docs.rclapp.com/subscription/subscription.html) for the SaaS application in the Azure Marketplace (*mandatory*)
+- Get the [Representative](./representative/representative.md) approved (*mandatory*)
+- Get your Organization approved, if required (*conditional*)
+- Add a Credit Card (*mandatory*)
+- Configure your payment system (*optional*)
+- Use the Payment API to add payments to your website or online application (*mandatory*)
+- Check your online transactions (*mandatory*)
+- Generate Payouts and transfer funds to your local bank account (*mandatory*)
 
-# Testing
+# Testing in the Sandbox Application
 
-A [Sandbox Application]() is provided for subscriber's to design and test their payment integrations before going live. This sandbox application comprises both a *Web User Interface* to configure the payment system and an *API* to simulate online payments. It is highly recommended that subscribers use this sandbox to test their payment integrations before accepting live payments online.
+A [Sandbox Application](https://dev.paments.rclapp.com) located at : https://dev.paments.rclapp.com is provided for subscriber's to design and test their payment integrations before going live. 
+
+This sandbox application comprises both a *Web User Interface* to configure the payment system and an *API* to simulate online payments. It is highly recommended that subscribers use this sandbox to test their payment integrations before accepting live payments online.
 
 
